@@ -1,50 +1,67 @@
-body{
-    margin:0;
-    background-color:#777777;
-    box-sizing: border-box;
-
-}
-header,nav,footer{
-    text-align: center;
-    background-color:#EBEBEB;
-    color: #777977;
-    font-size: 20px;
-    padding: 10px;
-    margin: 10px 10em;
-}
-.container{
-    margin-left:150px ;
-    margin-top: 20px;
-}
-section{
-   width: 40%;
-    background-color:#EBEBEB;
-    padding: 10px;
-     margin: 0 50px;
-     float: left;
-
+body {
+  background-color: #777;
 }
 
-article{
-    background-color: #777977;
-    padding: 5px;
+.container {
+  width: 1000px;
+  margin: 5px auto 0px auto;
 }
-section h1, section p{
-    color:#777977;
-    background-color: #EBEBEB;
-    text-align: center;
-    padding: 6px;
-    font-size: 20px;
+.container header,
+.container nav{
+  text-align: center;
+  color: #777;
+  background-color: #ebebeb;
+  font-size: 18px;
+  padding: 30px 0;
+  margin-bottom: 10px;
+}
+
+section {
+    width: 50%;
+  float: left;
+  background-color: #ebebeb;
+  padding: 20px;
+  text-align: center;
+  color: #777;
+  font-size: 20px;
+}
+
+
+section article {
+  background-color: #777;
+  padding: 30px;
+  text-align: center;
+  color: #ebebeb;
+
+
+}
+
+section h3,p{
+    background-color: #ebebeb;
+    margin-top: 10px;
+    padding: 15px;
+    color: #777;
+  
 }
 
 aside{
-  width: 32%;
-  height: 250px;
-    color:#777977;
-    background-color:#EBEBEB;
+    width: 43%;
+    height: 300px;
     text-align: center;
-    padding: 20px;
-    margin-left:580px;
-    font-size: 20px;
-    
+    float: left;
+    margin-left: 20px;
+    color: #777;
+    margin-bottom:20px;
+    background-color: #ebebeb;
+
+}
+
+.container footer{
+    text-align: center;
+  color: #777;
+  background-color: #ebebeb;
+  font-size: 18px;
+  padding: 30px 0;
+  clear: both;
+
 }
